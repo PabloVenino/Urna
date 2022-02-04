@@ -1,0 +1,726 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gpBox_containerDados.Name" xml:space="preserve">
+    <value>gpBox_containerDados</value>
+  </data>
+  <data name="&gt;&gt;lb_FraseAperte.Parent" xml:space="preserve">
+    <value>gpBox_containerDados</value>
+  </data>
+  <data name="&gt;&gt;lb_LaranjaCorrige.Name" xml:space="preserve">
+    <value>lb_LaranjaCorrige</value>
+  </data>
+  <data name="&gt;&gt;btn_num2.Name" xml:space="preserve">
+    <value>btn_num2</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="gpBox_vote.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, -5</value>
+  </data>
+  <data name="&gt;&gt;lb_NumeroPresidente.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_num7.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lb_NomePresidente.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btn_num1.Parent" xml:space="preserve">
+    <value>gpBox_vote</value>
+  </data>
+  <data name="lb_Partido.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btn_num0.Parent" xml:space="preserve">
+    <value>gpBox_vote</value>
+  </data>
+  <data name="btn_num3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtBox_SecNum.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lb_FraseAperte.Name" xml:space="preserve">
+    <value>lb_FraseAperte</value>
+  </data>
+  <data name="gpBox_containerDados.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 11</value>
+  </data>
+  <data name="gpBox_vote.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btn_num1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 217</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_num5.Name" xml:space="preserve">
+    <value>btn_num5</value>
+  </data>
+  <data name="&gt;&gt;gpBox_containerGeral.Parent" xml:space="preserve">
+    <value>gpBox_vote</value>
+  </data>
+  <data name="&gt;&gt;picBox_FotoCandidato.Parent" xml:space="preserve">
+    <value>gpBox_containerDados</value>
+  </data>
+  <data name="&gt;&gt;lb_NomePresidente.Parent" xml:space="preserve">
+    <value>gpBox_containerDados</value>
+  </data>
+  <data name="btn_branco.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;gpBox_vote.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb_FraseAperte.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 208</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtBox_PartidoCandidato.Parent" xml:space="preserve">
+    <value>gpBox_containerDados</value>
+  </data>
+  <data name="&gt;&gt;btn_branco.Parent" xml:space="preserve">
+    <value>gpBox_vote</value>
+  </data>
+  <data name="&gt;&gt;btn_num6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb_NomePresidente.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 154</value>
+  </data>
+  <data name="&gt;&gt;txtBox_SecNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBox_PartidoCandidato.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picBox_FotoCandidato.Name" xml:space="preserve">
+    <value>picBox_FotoCandidato</value>
+  </data>
+  <data name="&gt;&gt;lb_NomePresidente.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gpBox_vote.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_num4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btn_num5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>406, 273</value>
+  </data>
+  <data name="&gt;&gt;btn_num1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gpBox_containerGeral.Name" xml:space="preserve">
+    <value>gpBox_containerGeral</value>
+  </data>
+  <data name="btn_num2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="txtBox_SecNum.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lb_VerdeConfirma.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_num9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>468, 329</value>
+  </data>
+  <data name="txtBox_NomeCandidato.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btn_num6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>468, 273</value>
+  </data>
+  <data name="&gt;&gt;lb_Presidente.Name" xml:space="preserve">
+    <value>lb_Presidente</value>
+  </data>
+  <data name="&gt;&gt;txtBox_NomeCandidato.Name" xml:space="preserve">
+    <value>txtBox_NomeCandidato</value>
+  </data>
+  <data name="&gt;&gt;btn_num4.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;btn_num9.Name" xml:space="preserve">
+    <value>btn_num9</value>
+  </data>
+  <data name="gpBox_info.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 13</value>
+  </data>
+  <data name="&gt;&gt;btn_corrige.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_num9.Parent" xml:space="preserve">
+    <value>gpBox_vote</value>
+  </data>
+  <data name="&gt;&gt;rTxtBox_Teste.Parent" xml:space="preserve">
+    <value>gpBox_containerDados</value>
+  </data>
+  <data name="&gt;&gt;gpBox_info.Name" xml:space="preserve">
+    <value>gpBox_info</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_seuVotoPara.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="gpBox_containerGeral.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 11</value>
+  </data>
+  <data name="txtBox_PrimNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 89</value>
+  </data>
+  <data name="&gt;&gt;txtBox_NomeCandidato.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btn_confirmar.Parent" xml:space="preserve">
+    <value>gpBox_vote</value>
+  </data>
+  <data name="gpBox_containerDados.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lb_LaranjaCorrige.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 239</value>
+  </data>
+  <data name="&gt;&gt;txtBox_PrimNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_confirmar.Name" xml:space="preserve">
+    <value>btn_confirmar</value>
+  </data>
+  <data name="&gt;&gt;lb_Partido.Name" xml:space="preserve">
+    <value>lb_Partido</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>gpBox_containerDados</value>
+  </data>
+  <data name="&gt;&gt;btn_num2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb_Presidente.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btn_num2.Parent" xml:space="preserve">
+    <value>gpBox_vote</value>
+  </data>
+  <data name="&gt;&gt;gpBox_containerDados.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_Num1.Parent" xml:space="preserve">
+    <value>gpBox_containerDados</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 37</value>
+  </data>
+  <data name="lb_seuVotoPara.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lb_VerdeConfirma.Parent" xml:space="preserve">
+    <value>gpBox_containerDados</value>
+  </data>
+  <data name="&gt;&gt;btn_branco.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_corrige.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Urna Eletrônica</value>
+  </data>
+  <data name="&gt;&gt;btn_num8.Name" xml:space="preserve">
+    <value>btn_num8</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 19</value>
+  </data>
+  <data name="&gt;&gt;btn_num4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_LaranjaCorrige.Parent" xml:space="preserve">
+    <value>gpBox_containerDados</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;btn_confirmar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btn_num1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lb_Partido.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_num6.Parent" xml:space="preserve">
+    <value>gpBox_vote</value>
+  </data>
+  <data name="&gt;&gt;lb_VerdeConfirma.Name" xml:space="preserve">
+    <value>lb_VerdeConfirma</value>
+  </data>
+  <data name="btn_confirmar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>530, 329</value>
+  </data>
+  <data name="lb_VerdeConfirma.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 221</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;rTxtBox_Teste.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtBox_PartidoCandidato.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lb_Num1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtBox_NomeCandidato.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_confirmar.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btn_corrige.Parent" xml:space="preserve">
+    <value>gpBox_vote</value>
+  </data>
+  <data name="&gt;&gt;lb_NomePresidente.Name" xml:space="preserve">
+    <value>lb_NomePresidente</value>
+  </data>
+  <data name="&gt;&gt;btn_num3.Parent" xml:space="preserve">
+    <value>gpBox_vote</value>
+  </data>
+  <data name="txtBox_NomeCandidato.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 139</value>
+  </data>
+  <data name="lb_NumeroPresidente.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 127</value>
+  </data>
+  <data name="btn_num7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 329</value>
+  </data>
+  <data name="btn_num2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>406, 217</value>
+  </data>
+  <data name="&gt;&gt;btn_num7.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lb_NumeroPresidente.Name" xml:space="preserve">
+    <value>lb_NumeroPresidente</value>
+  </data>
+  <data name="gpBox_containerGeral.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;btn_num9.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lb_Partido.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 181</value>
+  </data>
+  <data name="&gt;&gt;btn_num3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb_Num1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 90</value>
+  </data>
+  <data name="&gt;&gt;btn_num4.Parent" xml:space="preserve">
+    <value>gpBox_vote</value>
+  </data>
+  <data name="txtBox_PrimNum.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;btn_num8.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;rTxtBox_Teste.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lb_Presidente.Parent" xml:space="preserve">
+    <value>gpBox_containerDados</value>
+  </data>
+  <data name="&gt;&gt;lb_Partido.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;gpBox_info.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_corrige.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lb_Partido.Parent" xml:space="preserve">
+    <value>gpBox_containerDados</value>
+  </data>
+  <data name="&gt;&gt;btn_num7.Parent" xml:space="preserve">
+    <value>gpBox_vote</value>
+  </data>
+  <data name="&gt;&gt;txtBox_PrimNum.Parent" xml:space="preserve">
+    <value>gpBox_containerDados</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>UrnaEletronica</value>
+  </data>
+  <data name="&gt;&gt;lb_Num1.Name" xml:space="preserve">
+    <value>lb_Num1</value>
+  </data>
+  <data name="btn_num8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>406, 329</value>
+  </data>
+  <data name="&gt;&gt;gpBox_containerGeral.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picBox_FotoCandidato.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lb_NumeroPresidente.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_num9.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;gpBox_vote.Name" xml:space="preserve">
+    <value>gpBox_vote</value>
+  </data>
+  <data name="&gt;&gt;gpBox_info.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;btn_branco.Name" xml:space="preserve">
+    <value>btn_branco</value>
+  </data>
+  <data name="&gt;&gt;btn_num1.Name" xml:space="preserve">
+    <value>btn_num1</value>
+  </data>
+  <data name="btn_branco.Location" type="System.Drawing.Point, System.Drawing">
+    <value>530, 217</value>
+  </data>
+  <data name="&gt;&gt;gpBox_info.Parent" xml:space="preserve">
+    <value>gpBox_vote</value>
+  </data>
+  <data name="btn_num0.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtBox_NomeCandidato.Parent" xml:space="preserve">
+    <value>gpBox_containerDados</value>
+  </data>
+  <data name="&gt;&gt;btn_num7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_num1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gpBox_vote.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btn_num4.Name" xml:space="preserve">
+    <value>btn_num4</value>
+  </data>
+  <data name="&gt;&gt;lb_LaranjaCorrige.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 182</value>
+  </data>
+  <data name="lb_seuVotoPara.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 19</value>
+  </data>
+  <data name="btn_num5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtBox_PrimNum.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btn_num8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_Presidente.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb_FraseAperte.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_num0.Name" xml:space="preserve">
+    <value>btn_num0</value>
+  </data>
+  <data name="&gt;&gt;btn_num2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;btn_corrige.Name" xml:space="preserve">
+    <value>btn_corrige</value>
+  </data>
+  <data name="&gt;&gt;gpBox_containerDados.Parent" xml:space="preserve">
+    <value>gpBox_vote</value>
+  </data>
+  <data name="rTxtBox_Teste.Text" xml:space="preserve">
+    <value>VERDE para CONFIRMAR
+LARANJA para CORRIGIR</value>
+  </data>
+  <data name="&gt;&gt;txtBox_PrimNum.Name" xml:space="preserve">
+    <value>txtBox_PrimNum</value>
+  </data>
+  <data name="&gt;&gt;lb_seuVotoPara.Parent" xml:space="preserve">
+    <value>gpBox_containerDados</value>
+  </data>
+  <data name="btn_num3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>468, 217</value>
+  </data>
+  <data name="lb_Presidente.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 51</value>
+  </data>
+  <data name="rTxtBox_Teste.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lb_seuVotoPara.Name" xml:space="preserve">
+    <value>lb_seuVotoPara</value>
+  </data>
+  <data name="&gt;&gt;rTxtBox_Teste.Name" xml:space="preserve">
+    <value>rTxtBox_Teste</value>
+  </data>
+  <data name="&gt;&gt;picBox_FotoCandidato.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_seuVotoPara.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_NumeroPresidente.Parent" xml:space="preserve">
+    <value>gpBox_containerDados</value>
+  </data>
+  <data name="btn_num0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>406, 385</value>
+  </data>
+  <data name="&gt;&gt;lb_Presidente.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;btn_num5.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="&gt;&gt;txtBox_SecNum.Parent" xml:space="preserve">
+    <value>gpBox_containerDados</value>
+  </data>
+  <data name="&gt;&gt;lb_VerdeConfirma.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 32</value>
+  </data>
+  <data name="picBox_FotoCandidato.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;txtBox_SecNum.Name" xml:space="preserve">
+    <value>txtBox_SecNum</value>
+  </data>
+  <data name="btn_num8.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lb_Num1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lb_LaranjaCorrige.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_num3.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>gpBox_containerDados</value>
+  </data>
+  <data name="&gt;&gt;lb_NomePresidente.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btn_num4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 273</value>
+  </data>
+  <data name="&gt;&gt;btn_num3.Name" xml:space="preserve">
+    <value>btn_num3</value>
+  </data>
+  <data name="&gt;&gt;btn_num0.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_corrige.Location" type="System.Drawing.Point, System.Drawing">
+    <value>530, 273</value>
+  </data>
+  <data name="&gt;&gt;btn_num7.Name" xml:space="preserve">
+    <value>btn_num7</value>
+  </data>
+  <data name="&gt;&gt;btn_num5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_num8.Parent" xml:space="preserve">
+    <value>gpBox_vote</value>
+  </data>
+  <data name="&gt;&gt;btn_num6.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lb_LaranjaCorrige.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lb_VerdeConfirma.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txtBox_PartidoCandidato.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btn_confirmar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_num0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 450</value>
+  </data>
+  <data name="txtBox_PartidoCandidato.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 166</value>
+  </data>
+  <data name="&gt;&gt;btn_num6.Name" xml:space="preserve">
+    <value>btn_num6</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_FraseAperte.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btn_branco.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lb_NumeroPresidente.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gpBox_containerDados.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gpBox_containerGeral.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_Num1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_FraseAperte.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_num9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gpBox_info.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;txtBox_PartidoCandidato.Name" xml:space="preserve">
+    <value>txtBox_PartidoCandidato</value>
+  </data>
+  <data name="rTxtBox_Teste.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 208</value>
+  </data>
+  <data name="&gt;&gt;btn_num5.Parent" xml:space="preserve">
+    <value>gpBox_vote</value>
+  </data>
+  <data name="txtBox_SecNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 89</value>
+  </data>
+  <data name="picBox_FotoCandidato.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 19</value>
+  </data>
+  <data name="btn_num6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <metadata name="picBox_FotoCandidato.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>pt-BR</value>
+  </metadata>
+</root>
